@@ -1,9 +1,8 @@
 {
   "name": "openclaw-github-trending",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "GitHub Trending Notifier Skill for OpenClaw - hourly check with AI summaries",
   "main": "scripts/trending.js",
-  "type": "module",
   "scripts": {
     "start": "node scripts/trending.js",
     "test": "node scripts/trending.js --dry-run"
