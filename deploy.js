@@ -45,5 +45,5 @@ if (fs.existsSync(envExample) && !fs.existsSync(envTarget)) {
 console.log('\n✅ Deployment complete!');
 console.log('\n📝 Next steps:');
 console.log(`   1. Review .env: ${envTarget}`);
-console.log(`   2. Test: node ${path.join(INSTALL_DIR, 'src/index.js')}`);
-console.log(`   3. Add to cron: openclaw cron add --name "GitHub Trending" --cron "0 9 * * *" --session isolated --message "node ${ path.join(INSTALL_DIR, 'src/index.js') }"`);
+console.log(`   2. Test: node ${path.join(INSTALL_DIR, 'scripts/trending.js')}`);
+console.log(`   3. Add to cron: openclaw cron add --name "GitHub Trending" --cron "0 9 * * *" --session isolated --message "node ${ path.join(INSTALL_DIR, 'scripts/trending.js') }"`);
