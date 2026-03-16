@@ -12,7 +12,11 @@
 
 **Status**: Production | **License**: MIT | **Author**: maichanks
 
-An OpenClaw skill that monitors GitHub Trending repositories and sends formatted summaries to your chat channels (Feishu/Telegram/Discord/Slack).
+> ⚡ **一键部署**：`curl -fsSL https://raw.githubusercontent.com/maichanks/openclaw-github-trending/main/deploy.js -o deploy.js && node deploy.js`
+>
+> 实时监控 GitHub Trending 热门仓库，智能过滤 + 可选 AI 摘要，定时推送至飞书/Telegram/Discord/Slack。快速洞察开发趋势，3 分钟部署即用。
+
+**🚀 3 分钟部署** | 📖 双语文档 | 🆓 MIT 协议 | ⭐ OpenClaw 原生集成
 
 ### Features
 
@@ -21,6 +25,19 @@ An OpenClaw skill that monitors GitHub Trending repositories and sends formatted
 - Optional AI summarization (OpenRouter)
 - Multiple notifiers: Feishu, Telegram, Discord, Slack
 - Designed for OpenClaw ecosystem
+
+### 🚀 One-Click Deploy
+
+Run the automated deployment script:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/maichanks/openclaw-github-trending/main/deploy.js -o deploy.js && node deploy.js
+```
+
+This will clone the repo, install dependencies, and create a `.env` file.
+
+---
+
 
 ### Quick Start
 
@@ -123,3 +140,24 @@ openclaw cron add \
   --session isolated \
   --message "node $HOME/.openclaw/workspace/skills/openclaw-github-trending/src/index.js"
 ```
+
+---
+
+## 📝 Keywords
+
+`openclaw`, `github-trending`, `github-monitor`, `notifications`, `ai-summarization`, `openrouter`, `feishu`, `telegram`, `discord`, `slack`, `automation`, `devops`, `developer-tools`
+
+---
+
+## 🔗 Related OpenClaw Projects
+
+- [Smart Digest](https://github.com/maichanks/smart-digest) - AI-powered news digest for OpenClaw
+- [Security Hardening for OpenClaw](https://github.com/maichanks/security-hardening) - Comprehensive security toolkit
+- [LLM Cost Optimizer](https://github.com/maichanks/llm-cost-optimizer) - Monitor and reduce LLM API costs
+- [Multi-Platform Publisher](https://github.com/maichanks/multi-platform-publisher) - Enterprise content publishing with MCP support
+
+---
+
+## 📄 License
+
+MIT © 2026 maichanks <hankan1993@gmail.com>
